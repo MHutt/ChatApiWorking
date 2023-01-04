@@ -1,0 +1,36 @@
+body {
+    background-color: #00b8d4;
+    color: #ffffff;
+  }
+  
+  .navbar {
+    background-color: #00b8d4;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #ffffff;
+  }
+  
+  .nav-link:hover {
+    color: #00b8d4;
+  }
+  
+  .btn-primary {
+    background-color: #00b8d4;
+    border-color: #00b8d4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffffff;
+    color: #00b8d4;
+  }
+  
+  .animated-element {
+    width: 0;
+    transition: width 2s ease-in-out;
+  }
+
+  .animated-element.is-visible {
+    width: 100%;
+  }
